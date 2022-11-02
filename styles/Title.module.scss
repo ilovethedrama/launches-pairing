@@ -1,0 +1,13 @@
+.title {
+  padding: 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+.wrapper {
+  background: lightblue;
+  border-radius: 15px;
+  padding: 10px 40px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
