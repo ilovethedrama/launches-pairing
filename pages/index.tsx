@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.scss';
 import Title from '../components/atoms/title';
 
 export async function getStaticProps() {
-  const res = await fetch('https://api.spacexdata.com/v3/launches');
+  const res = await fetch('https://api.spacexdata.com/v3/launches?page=1&limit=10');
   const data = await res.json();
 
   if (!data) {
