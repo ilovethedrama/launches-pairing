@@ -1,4 +1,13 @@
 {
   "parser": "@typescript-eslint/parser",
-  "extends": [ "@avayler/eslint-config"]
+  "extends": ["@avayler/eslint-config"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }
