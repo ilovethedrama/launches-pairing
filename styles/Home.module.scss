@@ -1,0 +1,18 @@
+.contentWrapper {
+  padding: 0 40px;
+}
+
+.main {
+  padding: 20px 0;
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  grid-gap: 40px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
