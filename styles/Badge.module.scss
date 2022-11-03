@@ -6,6 +6,11 @@
 
 .wrapper {
   display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 20px;
+  flex: 0 1 200px;
+  align-items: center;
 }
 
 .textContent {

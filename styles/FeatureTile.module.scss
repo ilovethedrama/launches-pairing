@@ -1,8 +1,10 @@
 .wrapper {
-  background: lightblue;
+  background: #61b08a;
   border-radius: 15px;
-  padding: 10px 40px;
+  padding: 40px 0px;
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  align-items: stretch;
+  min-height: 300px;
+  margin: 20px;
+  flex: 1 0 400px;
 }

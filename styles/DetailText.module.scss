@@ -1,5 +1,14 @@
 .title {
-  padding: 0 20px;
   display: inline-block;
-  font-weight: 500;
+  grid-gap: 10px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: .75rem;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  display: flex;
+  grid-gap: 5px;
+  max-width: 400px;
 }

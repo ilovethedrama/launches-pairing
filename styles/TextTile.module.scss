@@ -1,0 +1,25 @@
+.title {
+  padding: 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.textContent {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #3c2432;
+  border-right: none;
+  flex: 1 1 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.imageSmall {
+  object-fit: contain;
+}
