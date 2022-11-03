@@ -44,11 +44,7 @@ const Home = ({ spaceData }: { spaceData: launchMissionFull[] }) => {
                 rocket,
                 links,
               });
-              return (
-                <div key={flight_number}>
-                  <FeatureTile {...props}></FeatureTile>
-                </div>
-              );
+              return <FeatureTile key={flight_number} {...props}></FeatureTile>;
             }
           )}
         </div>
